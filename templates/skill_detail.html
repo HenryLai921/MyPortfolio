@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{ skill.name }} - 技能詳情{% endblock %}
+
+{% block content %}
+    <a href="{{ url_for('skills') }}" class="back-link">&larr; 返回技能列表</a>
+    <h1>{{ skill.name }}</h1>
+    <p class="skill-summary"><strong>簡介：</strong> {{ skill.summary }}</p>
+    <hr>
+    <h3>詳細說明：</h3>
+    <p>{{ skill.url_id }}</p>
+{% endblock %}

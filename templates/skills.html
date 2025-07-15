@@ -1,0 +1,6 @@
+{% for skill in skills %}
+    <a href="{{ url_for('skill_detail', skill_url_id=skill.url_id) }}" class="skill-card">
+        <h2>{{ skill.name }}</h2>
+        <p>{{ skill.summary }}</p>
+    </a>
+{% endfor %}
