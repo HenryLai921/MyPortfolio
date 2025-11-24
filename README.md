@@ -121,3 +121,7 @@ python app.py
 - 使用 WSGI 伺服器（如 Gunicorn）
 - 設定適當的環境變數
 - 定期備份資料庫
+
+## 作者、聯繫方式
+- Name : 賴泉宏
+- Email : henrylai922@gmail.com
